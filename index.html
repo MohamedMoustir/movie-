@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>movies</title
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="img/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="img/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="img/hero-bg.jpg"   ;
+>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Movies<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>discover</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>movies</a>
+          </li>
+<!-- 
+          <li class="nav-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+ -->
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover">Reservation</button>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('img/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Enjoy the Best Movies</p>
+
+            <h2 class="h1 hero-title">Unlock Exclusive Content with Our Special Offer!</h2>
+
+            <p class="hero-text">Watch Your Favorite Movies in High Quality Now.</p>
+
+            <button class="btn">Discover</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="img/hero-bg-shape" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100 hero-img-bg">
+
+            <img src="img/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+
+        </div>
+      </section>
+            <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+         
+
+<div class=" about-banner" >
+        <img class="slideshow-image " src="img/image1.jpg" alt="Image 1">
+        <img class="slideshow-image " src="img/image2.jpg" alt="Image 2">
+        <img class="slideshow-image" src="img/image3.jpg" alt="Image 3">
+    </div>
+    
+    
+   
+      <!-- 
+          <div class="about-banner " id="blog">
+            <img src="img/image2.jpg" width="509" height="459" loading="lazy" alt="Burger with Drinks"
+              class="w-100 about-img">
+       -->
+            
+                    </div>
+         
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+            Bring the cinema experience to your
+              <span class="span"> home now!</span>
+            </h2>
+
+            <p class="section-text" id="food-menu">
+            Get ready for an unparalleled cinematic experience! We bring you a selection of the latest releases and classic films in high definition, available anytime and anywhere. Join our platform and discover a world of entertainment that caters to all tastes.
+
+By subscribing to our platform, you'll enjoy:
+
+
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Extensive Movie Library</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">High-Definition Streaming</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Ad-Free Viewing</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">FPersonalized Recommendations</span>
+              </li>
+
+            </ul>
+
+            <buttn onclick="openLink()" class="btn btn-hover">Start Watching Now</button>
+
+          </div>
+
+        </div>
+      </section>
+  <!-- 
+    - custom js link
+  -->
+  <script src="main.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+
+  </html>
